@@ -6,8 +6,8 @@ namespace IESKFSlam
 {
     struct MeasureGroup{
         double lidar_begin_time;
+        double lidar_end_time;
         std::deque<IMU> imus;
         PointCloud cloud;
-        double lidar_end_time;
     };
 } // namespace IESKFSlam
